@@ -1,9 +1,6 @@
 class Accounts:
+    def __init__(self, account_id: int, account_balance: int, customer_id: int):
+        self.account_id = account_id
+        self.account_balance = account_balance
+        self.customer_id = customer_id
 
-def __init__(self.customer_id:int, self.checking_account_num:int, self.saving_account_num:int, self.checking_account_num:int, self.savings_account_num:int):
-    self.customer_id = customer_id
-    self.checking_account_num = checking_account_num
-    self.savings_account_num = savings_account_num
-    self.checking_account_bal_num = checking_account_bal_num
-    self.savings_account_bal_num = savings_account_bal_num
-_
